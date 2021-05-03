@@ -28,6 +28,7 @@ BLURRY_FEED_YAML="example.yaml"
   </div>
 {% endif %}  
 ```
+![blurryfeed](https://raw.githubusercontent.com/BlurryBat/blurry_feed_plugin/main/blurryfeed.png)
 
 ## Todo
 
