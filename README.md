@@ -18,14 +18,14 @@ BLURRY_FEED_YAML="example.yaml"
 ## Example jinja code to include the feed.
 ```html
 {% if BLURRY_FEED_YAML %}  
-		<div >    
-				<h2>Blurry Feed</h2>
-				<ul>            
-						{% for entry in blurry_feed %}  
-								<li><b>{{entry.published_parsed.tm_year}}-{{entry.published_parsed.tm_mon}}-{{entry.published_parsed.tm_mday}} <a href={{entry.link}}>{{ entry.title }
-						{% endfor %}
-				</ul>
-    </div>
+	<div >    
+		<h2>Blurry Feed</h2>
+		<ul>            
+			{% for entry in blurry_feed %}  
+				<li><b>{{entry.published_parsed.tm_year}}-{{entry.published_parsed.tm_mon}}-{{entry.published_parsed.tm_mday}} <a href={{entry.link}}>{{ entry.title }
+			{% endfor %}
+		</ul>
+	</div>
 {% endif %}  
 ```
 
